@@ -24,11 +24,11 @@
 
 球谐函数存在如下递推关系：
 
-$$Ω_x\vec{Y}(Ω) = \mathbf{A}_x\vec{Y}(Ω)$$
+$Ω_x\vec{Y}(Ω) = \mathbf{A}_x\vec{Y}(Ω)$
 
-$$Ω_y\vec{Y}(Ω) = \mathbf{A}_y\vec{Y}(Ω)$$
+$Ω_y\vec{Y}(Ω) = \mathbf{A}_y\vec{Y}(Ω)$
 
-$$Ω_z\vec{Y}(Ω) = \mathbf{A}_z\vec{Y}(Ω)$$
+$Ω_z\vec{Y}(Ω) = \mathbf{A}_z\vec{Y}(Ω)$
 
 其中矩阵 $ \mathbf{A}_x,  \mathbf{A}_y,  \mathbf{A}_z$ 分别为 $x,y,z$ 方向上的递推关系矩阵。
 
@@ -36,23 +36,23 @@ $$Ω_z\vec{Y}(Ω) = \mathbf{A}_z\vec{Y}(Ω)$$
 
 ## 球谐函数正交关系
 
-$$ \mathbf{A}_z = \int_{\Omega} Ω_z\vec{Y}(Ω) \vec{Y}^{T}(Ω) d\Omega$$
+$ \mathbf{A} = \int_{\Omega} \vec{Y}(Ω) \vec{Y}^{T}(Ω) d\Omega$
 
 ![A](./data/A.png)
 
 ## x方向递推关系
 
-$$ \mathbf{A}_x = \int_{\Omega} Ω_x\vec{Y}(Ω) \vec{Y}^{T}(Ω) d\Omega$$
+$ \mathbf{A}_x = \int_{\Omega} Ω_x\vec{Y}(Ω) \vec{Y}^{T}(Ω) d\Omega$
 
 ![Ax](./data/Ax.png)
 
 ## y方向递推关系
 
-$$ \mathbf{A}_y = \int_{\Omega} Ω_y\vec{Y}(Ω) \vec{Y}^{T}(Ω) d\Omega$$
+$ \mathbf{A}_y = \int_{\Omega} Ω_y\vec{Y}(Ω) \vec{Y}^{T}(Ω) d\Omega$
 
 ![Ay](./data/Ay.png)
 
 ## z方向递推关系
-$$ \mathbf{A}_z = \int_{\Omega} Ω_z\vec{Y}(Ω) \vec{Y}^{T}(Ω) d\Omega$$
+$ \mathbf{A}_z = \int_{\Omega} Ω_z\vec{Y}(Ω) \vec{Y}^{T}(Ω) d\Omega$
 
 ![Az](./data/Az.png)
