@@ -1,11 +1,9 @@
 import numpy as np
-from scipy.special import sph_harm
 import mayavi.mlab as mlab
 import sh
 
 pn = 5
-
-theta, phi = np.mgrid[0:np.pi:101j, 0:2*np.pi:101j]
+[theta, phi] = np.mgrid[0:np.pi:101j, 0:2*np.pi:101j]
 
 x = np.sin(theta)*np.cos(phi)
 y = np.sin(theta)*np.sin(phi)
