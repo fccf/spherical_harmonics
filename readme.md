@@ -20,7 +20,7 @@
 - SphericalHarmonics
   ![SphericalHarmonics](./data/SphericalHarmonics.png)
 
-# 球谐函数递推关系模块[sh_recurrence](./src/lib/sh_recurrence.F90)
+# 球谐函数递推关系模块[sh_recurrence](./src/lib/sh_recurrence.f90)
 
 球谐函数存在如下递推关系：
 
